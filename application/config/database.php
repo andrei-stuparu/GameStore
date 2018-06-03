@@ -72,14 +72,18 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 */
 $active_group = 'default';
 $query_builder = TRUE;
+
 $h=getenv('hostname');
 $u=getenv('username');
 $p=getenv('password');
 $d=getenv('database');
-//$h='localhost';
-//$u='admin';
-//$p='qwerty';
-//$d='gamestore';
+
+/*
+$h='localhost';
+$u='admin';
+$p='qwerty';
+$d='gamestore';
+*/
 
 $db['default'] = array(
 	'dsn'	=> '',
